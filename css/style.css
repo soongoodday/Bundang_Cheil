@@ -6,3 +6,27 @@
 @import url(common.css);
 
 body {font-family: 'AliceDigitalLearning';}
+
+.hero {width: 100%; font-size: 0;}
+
+.notice {width: 100%; height: 62px; background: #3c4b6c; margin: 0 auto; display: flex; justify-content: center; align-items: center;}
+.notice .notice_box {width: 126px; height: 33px; background: #fff; text-align: center; line-height: 33px;}
+.notice .notice_text {color: #fff; margin-left: 20px;}
+
+
+
+
+section {}
+section .section1 {width: 1500px; height: 522px; margin: 0 auto; display: flex; gap: 20px; margin-top: 130px;}
+section .section1 .new {width: 475px; height: 260px; background: lavender;}
+section .section1 .new .title_box {display: flex; justify-content: space-between;}
+
+section .section1 .thanks {width: 475px; height: 260px; background: lavenderblush;}
+
+
+section .section1 .good {width: 475px; height: 260px; background: lightyellow;}
+
+
+section .section2 {}
+section .section3 {}
+section .section4 {}
