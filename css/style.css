@@ -8,7 +8,7 @@
 body {font-family: 'AliceDigitalLearning';}
 
 .hero {font-size: 0;}
-.hero .text_box {width: 534px; position: absolute; left: 11%; top: 37%;}
+.hero .text_box {width: 534px; position: absolute; top: 290px; left: 200px;}
 .hero .text_box li:nth-child(1) {font-size: 34px; font-weight: bold; color: #F04155;}
 .hero .text_box li:nth-child(2) {font-size: 49px; font-weight: bold; color: #3C4B6C; letter-spacing: -1%;}
 .hero .text_box li:nth-child(3) {font-size: 16px; font-family: 'Pretendard'; line-height: 170%; color: #3C3C3C; margin-top: 22px;}
@@ -99,9 +99,9 @@ section .section2 .time_notice .tnotice_box .tbox > li > ul > li.color2 {color: 
 
 
 
-section .section3 {background: #3C4B6C; position: relative; overflow: hidden; height: 310px;}
+section .section3 {background: #3C4B6C url(../images/logo_pattern.png) repeat; position: relative; overflow: hidden; height: 310px;}
 
-section .section3::before {content: ""; position: absolute; background: url(../images/logo_pattern.png) repeat; opacity: 0.5; mix-blend-mode: luminosity; z-index: 0; inset:  0;}
+/* section .section3::before {content: ""; position: absolute; background: url(../images/logo_pattern.png) repeat; opacity: 0.5; mix-blend-mode: luminosity; z-index: 0; inset:  0;} */
 
 section .section3 .box {height: 310px; display: flex; justify-content: space-between; align-items: center; width: 1500px; margin: 0 auto; position: relative; gap: 20px;}
 section .section3 .box .section3_box1 {width: 742px; height: 130px; background: #fff; position: absolute; z-index: 1; border-top-right-radius: 50px;}
