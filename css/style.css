@@ -138,19 +138,32 @@ section .section4 {width: 100%; height: 886px; margin: 0 auto;}
 section .section4 .imagemap {width: 1500px; height: 628px; margin: 0 auto; margin-top: 130px;}
 section .section4 .imagemap .imagemap_title {width: 1500px; height: 62px; background: #3C4B6C; font-size: 22px; font-weight: bold; color: #fff; text-align: center; line-height: 62px;}
 section .section4 .imagemap .imagemap_section {width: 1500px; height: 545px; margin-top: 20px;}
-section .section4 .imagemap .imagemap_section .imagemap_section1 {width: 1500px; height: 360px; display: flex; justify-content: space-between;}
-section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_left {width: 487px; height: 360px; position: relative;}
-section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_left img {}
-section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_left .imagemap_t {position: absolute; top: 30px; left: 30px; font-size: 20px; font-weight: bold; color: #fff; line-height: 150%;}
+section .section4 .imagemap .imagemap_section .imagemap_section1 {width: 1500px; height: 360px; display: flex; gap: 20px;}
 
 
-section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_right {width: 993px; height: 360px; position: relative;}
-section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_right .imagemap_right1 {width: 993px; height: 192px;}
-section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_right .imagemap_t {position: absolute; top: 30px; left: 30px; font-size: 20px; font-weight: bold; color: #fff;}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top {width: 487px; height: 360px; position: relative;}
 
-section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_right .imagemap_right2 {display: flex; justify-content: space-between; margin-top: 20px;}
-section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_right .imagemap_right2 li .imagemap_t {position: absolute; top: 30px; left: 30px; font-size: 20px; font-weight: bold; color: #fff;}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top .imagemap_top1 {}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top img {}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top .imagemap_t {position: absolute; top: 30px; left: 30px; font-size: 20px; font-weight: bold; color: #fff; line-height: 150%;}
 
 
-section .section4 .imagemap .imagemap_section .imagemap_section2 {width: 1500px; height: 165px; display: flex; justify-content: space-between; margin-top: 20px;}
-section .section4 .imagemap .imagemap_section .imagemap_section2 li {width: 487px; height: 165px;}
+
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top2 {width: 993px; display: flex; flex-direction: column; justify-content: space-between;}
+
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top2 .imagemap_right {position: relative;}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top2 .imagemap_right1-1 {}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top2 .imagemap_right1-1 img {}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top2 .imagemap_right .imagemap_t {position: absolute; top: 30px; left: 30px; font-size: 20px; font-weight: bold; color: #fff; line-height: 150%;}
+
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_rightbox {width: 993px; height: 149px; display: flex; justify-content: space-between;}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_rightbox .imagemap_right2 {position: relative;}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_rightbox .imagemap_right2 .imagemap_right2-1 {}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_rightbox .imagemap_right2 .imagemap_right2-1 img {}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_rightbox .imagemap_right2 .imagemap_t {position: absolute; top: 30px; left: 30px; font-size: 20px; font-weight: bold; color: #fff; line-height: 150%;}
+
+
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_rightbox .imagemap_right3 {position: relative;}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_rightbox .imagemap_right3 .imagemap_right3-1 {}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_rightbox .imagemap_right3 .imagemap_right3-1 img {}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_rightbox .imagemap_right3 .imagemap_t {position: absolute; top: 30px; left: 30px; font-size: 20px; font-weight: bold; color: #fff; line-height: 150%;}
