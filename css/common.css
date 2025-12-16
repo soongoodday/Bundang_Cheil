@@ -14,15 +14,16 @@ header .topset .login_box .sitemap_button {width: 80px; height: 28px; background
 header .topset .login_box .sitemap_button a {color: #fff;}
 
 header h1 {width: 230px; height: 50px; margin: 0 auto;}
+header h1 img {width: 100%;}
 
 header nav {width: 1500px; height: 56px; margin: 0 auto; display: flex; justify-content: center;}
-header nav .gnb {width: 946px; height: 80px; font-weight: bold; margin: 0 auto; display: flex; justify-content: space-between; margin-top: 50px; font-size: 20px;}
+header nav .gnb {width: 946px; height: 80px; font-weight: bold; margin: 0 auto; display: flex; justify-content: space-between; margin-top: 60px; font-size: 20px;}
 header nav .gnb > li {position: relative; left: 0; top: 0; transition: 0.5s;}
 header nav .gnb > li > a {color: #3c3c3c;}
-header nav .gnb > li .gnb_color {background: #f04155; width: 157px; height: 68px; text-align: center; line-height: 68px; border-top-right-radius: 30px; position: relative; left: 0; top: -50%; visibility: hidden;}
+header nav .gnb > li .gnb_color {background: #f04155; width: 157px; height: 68px; text-align: center; line-height: 68px; border-top-right-radius: 30px; position: absolute; left: 0; top: -26%; visibility: hidden;}
 header nav .gnb > li .gnb_color a {color: #fff;}
 
-header nav .gnb li .lnb {width: 360px; height: 264px; background: #fff; border-bottom-right-radius: 50px; display: flex; box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);  position: absolute; top: 70%; left: 0; transition: 0.5s; opacity: 0; visibility: hidden;}
+header nav .gnb li .lnb {width: 360px; height: 264px; background: #fff; border-bottom-right-radius: 50px; display: flex; box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);  position: absolute; top: 58%; left: 0; transition: 0.5s; opacity: 0; visibility: hidden;}
 header nav .gnb li .lnb img {width: 64px; height: 83px; margin-top: 90px; margin-left: 54px;}
 header nav .gnb li .lnb .lnb_detail {margin-top: 50px; margin-left: 54px;}
 header nav .gnb li .lnb li:nth-child(1) {font-size: 20px; font-weight: bold;}

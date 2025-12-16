@@ -7,13 +7,26 @@
 
 body {font-family: 'AliceDigitalLearning';}
 
-.hero {font-size: 0;}
-.hero .text_box {width: 534px; position: absolute; top: 290px; left: 200px;}
-.hero .text_box li:nth-child(1) {font-size: 34px; font-weight: bold; color: #F04155;}
-.hero .text_box li:nth-child(2) {font-size: 49px; font-weight: bold; color: #3C4B6C; letter-spacing: -1%;}
-.hero .text_box li:nth-child(3) {font-size: 16px; font-family: 'Pretendard'; line-height: 170%; color: #3C3C3C; margin-top: 22px;}
+.hero {font-size: 0; position: relative;}
+.hero .hero_img {position: relative; overflow: hidden;}
+.hero .hero_img img {position: position; animation: imgAni 2s forwards; transform: scale(105%); top: 0; left: 0;}
+.hero .text_box {width: 534px; position: absolute; transform: translate(22%, 0); animation: textAni 2s forwards; left: 200px; top: 105px; opacity: 0;}
+.hero .text_box li:nth-child(1) {font-size: 34px; font-weight: bold; color: #F04155; animation: textAni 0.5s forwards; left: 200px; position: relative; opacity: 0;}
+.hero .text_box li:nth-child(2) {font-size: 49px; font-weight: bold; color: #3C4B6C; letter-spacing: -1%; animation: textAni 0.6s forwards; left: 200px; position: relative; opacity: 0;}
+.hero .text_box li:nth-child(3) {font-size: 16px; font-family: 'Pretendard'; line-height: 170%; color: #3C3C3C; margin-top: 22px; position: relative; animation: textAni 0.7s forwards; left: 200px; opacity: 0;}
 
-.hero .text_box .logo_box {width: 496px; margin-top: 50px; display: flex; justify-content: space-between; align-items: end;}
+
+@keyframes imgAni {
+    0% {transform: scale(105%);}
+    100% {transform: scale(100%);}
+}
+
+@keyframes textAni {
+    0% {left: 200px; opacity: 0;}
+    100% {left: 0; opacity: 1;}
+}
+
+.hero .text_box .logo_box {width: 496px; margin-top: 50px; display: flex; justify-content: space-between; align-items: end; animation: textAni 2s forwards; position: relative; left: 200px;}
 .hero .text_box .logo_box li {}
 .hero .text_box .logo_box li:nth-child(1) {}
 .hero .text_box .logo_box li:nth-child(2) {}
@@ -120,5 +133,24 @@ section .section3 .box .section3_box2 .box1_2 .box1_2_img {margin-left: 20px;}
 section .section3 .box .section3_box2 .box1_2 .box1_2_img img {}
 
 
+/* 섹션4 */
+section .section4 {width: 100%; height: 886px; margin: 0 auto;}
+section .section4 .imagemap {width: 1500px; height: 628px; margin: 0 auto; margin-top: 130px;}
+section .section4 .imagemap .imagemap_title {width: 1500px; height: 62px; background: #3C4B6C; font-size: 22px; font-weight: bold; color: #fff; text-align: center; line-height: 62px;}
+section .section4 .imagemap .imagemap_section {width: 1500px; height: 545px; margin-top: 20px;}
+section .section4 .imagemap .imagemap_section .imagemap_section1 {width: 1500px; height: 360px; display: flex; justify-content: space-between;}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_left {width: 487px; height: 360px; position: relative;}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_left img {}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_left .imagemap_t {position: absolute; top: 30px; left: 30px; font-size: 20px; font-weight: bold; color: #fff; line-height: 150%;}
 
-section .section4 {}
+
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_right {width: 993px; height: 360px; position: relative;}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_right .imagemap_right1 {width: 993px; height: 192px;}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_right .imagemap_t {position: absolute; top: 30px; left: 30px; font-size: 20px; font-weight: bold; color: #fff;}
+
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_right .imagemap_right2 {display: flex; justify-content: space-between; margin-top: 20px;}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_right .imagemap_right2 li .imagemap_t {position: absolute; top: 30px; left: 30px; font-size: 20px; font-weight: bold; color: #fff;}
+
+
+section .section4 .imagemap .imagemap_section .imagemap_section2 {width: 1500px; height: 165px; display: flex; justify-content: space-between; margin-top: 20px;}
+section .section4 .imagemap .imagemap_section .imagemap_section2 li {width: 487px; height: 165px;}
