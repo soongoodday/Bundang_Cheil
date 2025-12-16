@@ -103,13 +103,21 @@ section .section3 {background: #3C4B6C; position: relative; overflow: hidden; he
 
 section .section3::before {content: ""; position: absolute; background: url(../images/logo_pattern.png) repeat; opacity: 0.5; mix-blend-mode: luminosity; z-index: 0; inset:  0;}
 
-section .section3 .box {height: 310px; display: flex; justify-content: center; align-items: center; gap: 20px;}
-section .section3 .section3_box1 {width: 742px; height: 130px; background: #fff; position: relative; z-index: 1; border-top-right-radius: 50px;}
-section .section3 .section3_box1 .box1_1 {width: 740px; height: 72px; background: #3C4B6C; box-shadow: 0 0 0 2px #fff; border-top-right-radius: 50px; font-size: 22px; font-weight: bold; color: #fff; padding: 20px 107px; box-sizing: border-box;}
-section .section3 .section3_box1 .box1_2 {font-size: 16px; padding: 20px 107px; box-sizing: border-box; color: #3C4B6C;}
+section .section3 .box {height: 310px; display: flex; justify-content: space-between; align-items: center; width: 1500px; margin: 0 auto; position: relative; gap: 20px;}
+section .section3 .box .section3_box1 {width: 742px; height: 130px; background: #fff; position: absolute; z-index: 1; border-top-right-radius: 50px;}
+section .section3 .box .section3_box1 .box1_1 {width: 740px; height: 72px; background: #3C4B6C; box-shadow: 0 0 0 2px #fff; border-top-right-radius: 50px; font-size: 22px; font-weight: bold; color: #fff; padding: 20px 107px; box-sizing: border-box;}
+section .section3 .box .section3_box1 .box1_2 {display: flex; justify-content: space-between; align-items: center;}
+section .section3 .box .section3_box1 .box1_2 .box1_2_title {font-size: 16px; padding: 20px 107px; box-sizing: border-box; color: #3C4B6C;}
+section .section3 .box .section3_box1 .box1_2 .box1_2_img {margin-right: 20px;}
+section .section3 .box .section3_box1 .box1_2 .box1_2_img img {}
 
 
-section .section3 .section3_box2 {width: 740px; height: 130px; background: #fff; position: relative; z-index: 1; border-top-left-radius: 50px;}
+section .section3 .box .section3_box2 {width: 742px; height: 130px; background: #fff; position: absolute; z-index: 1; border-top-left-radius: 50px; right: 0; top: 90px;}
+section .section3 .box .section3_box2 .box1_1 {width: 740px; height: 72px; background: #F04155; box-shadow: 0 0 0 2px #fff; border-top-left-radius: 50px; font-size: 22px; font-weight: bold; color: #fff; padding: 20px 107px; box-sizing: border-box; text-align: right;}
+section .section3 .box .section3_box2 .box1_2 {display: flex; justify-content: space-between; align-items: center;}
+section .section3 .box .section3_box2 .box1_2 .box1_2_title {font-size: 16px; padding: 20px 107px; box-sizing: border-box; color: #F04155;}
+section .section3 .box .section3_box2 .box1_2 .box1_2_img {margin-left: 20px;}
+section .section3 .box .section3_box2 .box1_2 .box1_2_img img {}
 
 
 
