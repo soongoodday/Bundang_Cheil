@@ -7,9 +7,9 @@
 
 body {font-family: 'AliceDigitalLearning';}
 
-.hero {font-size: 0; position: relative;}
-.hero .hero_img {position: relative; overflow: hidden;}
-.hero .hero_img img {position: position; animation: imgAni 2s forwards; transform: scale(105%); top: 0; left: 0;}
+.hero {display: flex; justify-content: center; position: relative; height: 590px; font-size: 0;}
+.hero .hero_img {position: absolute; overflow: hidden; width: 100%; height: 100%;}
+.hero .hero_img img {animation: imgAni 2s forwards; transform: scale(105%); width: 100%; height: 100%;}
 .hero .text_box {width: 534px; position: absolute; transform: translate(22%, 0); animation: textAni 2s forwards; left: 200px; top: 105px; opacity: 0;}
 .hero .text_box li:nth-child(1) {font-size: 34px; font-weight: bold; color: #F04155; animation: textAni 0.5s forwards; left: 200px; position: relative; opacity: 0;}
 .hero .text_box li:nth-child(2) {font-size: 49px; font-weight: bold; color: #3C4B6C; letter-spacing: -1%; animation: textAni 0.6s forwards; left: 200px; position: relative; opacity: 0;}
@@ -40,7 +40,7 @@ body {font-family: 'AliceDigitalLearning';}
 /* 섹션 */
 /* 섹션1 */
 
-.notice {width: 100%; height: 62px; background: #3c4b6c; margin: 0 auto; display: flex; justify-content: center; align-items: center;}
+.notice {width: 1920px; height: 62px; background: #3c4b6c; margin: 0 auto; display: flex; justify-content: center; align-items: center;}
 .notice .notice_box {width: 126px; height: 33px; background: #fff; text-align: center; line-height: 33px;}
 .notice .notice_text {color: #fff; margin-left: 20px;}
 
@@ -85,7 +85,7 @@ section .section1 .good .section_box .contents_box .cob .contents_title {width: 
 section .section1 .good .section_box .contents_box .cob .contents_date {font-size: 16px; font-weight: 500; font-family: 'Pretendard'; margin: 15px 0 15px 0; width: 90px;}
 
 
-section .section2 {width: 100%; background: #f6f6f6; margin: 0 auto; margin-top: 130px; padding: 90px 0;}
+section .section2 {width: 1920px; background: #f6f6f6; margin: 0 auto; margin-top: 130px; padding: 90px 0;}
 section .section2 .time_notice {width: 1500px; height: 375px; margin: 0 auto;}
 section .section2 .time_notice .tnotice_text {}
 section .section2 .time_notice .tnotice_text .tnotice_title {}
@@ -111,8 +111,8 @@ section .section2 .time_notice .tnotice_box .tbox > li > ul > li.color2 {color: 
 
 
 
-
-section .section3 {background: #3C4B6C url(../images/logo_pattern.png) repeat; position: relative; overflow: hidden; height: 310px;}
+/* 섹션3 */
+section .section3 {background: #3C4B6C url(../images/logo_pattern.png) repeat; position: relative; overflow: hidden; height: 310px; width: 1920px; margin: 0 auto;}
 
 /* section .section3::before {content: ""; position: absolute; background: url(../images/logo_pattern.png) repeat; opacity: 0.5; mix-blend-mode: luminosity; z-index: 0; inset:  0;} */
 
@@ -134,36 +134,158 @@ section .section3 .box .section3_box2 .box1_2 .box1_2_img img {}
 
 
 /* 섹션4 */
-section .section4 {width: 100%; height: 886px; margin: 0 auto;}
+section .section4 {width: 1920px; margin: 0 auto; margin-bottom: 130px;}
 section .section4 .imagemap {width: 1500px; height: 628px; margin: 0 auto; margin-top: 130px;}
 section .section4 .imagemap .imagemap_title {width: 1500px; height: 62px; background: #3C4B6C; font-size: 22px; font-weight: bold; color: #fff; text-align: center; line-height: 62px;}
 section .section4 .imagemap .imagemap_section {width: 1500px; height: 545px; margin-top: 20px;}
-section .section4 .imagemap .imagemap_section .imagemap_section1 {width: 1500px; height: 360px; display: flex; gap: 20px;}
+section .section4 .imagemap .imagemap_section .imagemap_section1 {width: 1500px; height: 360px; display: flex; gap: 20px; overflow: hidden;}
 
 
 section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top {width: 487px; height: 360px; position: relative;}
 
-section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top .imagemap_top1 {}
-section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top img {}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top .imagemap_top1 {overflow: hidden;}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top .imagemap_top1 img {transition: 0.5s;}
 section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top .imagemap_t {position: absolute; top: 30px; left: 30px; font-size: 20px; font-weight: bold; color: #fff; line-height: 150%;}
 
 
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top .imagemap_top1:hover img {transform: scale(110%);}
 
-section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top2 {width: 993px; display: flex; flex-direction: column; justify-content: space-between;}
 
-section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top2 .imagemap_right {position: relative;}
-section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top2 .imagemap_right1-1 {}
-section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top2 .imagemap_right1-1 img {}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top2 {}
+
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top2 .imagemap_right {width: 993px; height: 192px; position: relative; overflow: hidden;}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top2 .imagemap_right .imagemap_right1-1 {}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top2 .imagemap_right .imagemap_right1-1 img {transition: 0.5s;}
 section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top2 .imagemap_right .imagemap_t {position: absolute; top: 30px; left: 30px; font-size: 20px; font-weight: bold; color: #fff; line-height: 150%;}
 
-section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_rightbox {width: 993px; height: 149px; display: flex; justify-content: space-between;}
-section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_rightbox .imagemap_right2 {position: relative;}
+
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top2 .imagemap_right .imagemap_right1-1:hover img {transform: scale(110%);}
+
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_rightbox {width: 993px; height: 149px; display: flex; justify-content: space-between; margin-top: 20px;}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_rightbox .imagemap_right2 {position: relative; overflow: hidden;}
 section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_rightbox .imagemap_right2 .imagemap_right2-1 {}
-section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_rightbox .imagemap_right2 .imagemap_right2-1 img {}
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_rightbox .imagemap_right2 .imagemap_right2-1 img {transform: 0.5s;}
 section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_rightbox .imagemap_right2 .imagemap_t {position: absolute; top: 30px; left: 30px; font-size: 20px; font-weight: bold; color: #fff; line-height: 150%;}
 
+
+section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_top2 .imagemap_right2 .imagemap_right2-1:hover img {transform: scale(110%);}
 
 section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_rightbox .imagemap_right3 {position: relative;}
 section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_rightbox .imagemap_right3 .imagemap_right3-1 {}
 section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_rightbox .imagemap_right3 .imagemap_right3-1 img {}
 section .section4 .imagemap .imagemap_section .imagemap_section1 .imagemap_rightbox .imagemap_right3 .imagemap_t {position: absolute; top: 30px; left: 30px; font-size: 20px; font-weight: bold; color: #fff; line-height: 150%;}
+
+
+section .section4 .imagemap .imagemap_section .imagemap_section2 {margin-top: 20px; display: flex; gap: 20px;}
+section .section4 .imagemap .imagemap_section .imagemap_section2 .imagemap_bottom {position: relative;}
+section .section4 .imagemap .imagemap_section .imagemap_section2 .imagemap_bottom1-1 {}
+section .section4 .imagemap .imagemap_section .imagemap_section2 .imagemap_bottom1-1 img {}
+section .section4 .imagemap .imagemap_section .imagemap_section2 .imagemap_bottom .imagemap_t {position: absolute; top: 30px; left: 30px; font-size: 20px; font-weight: bold; color: #fff; line-height: 150%;}
+
+
+section .section4 .imagemap .imagemap_section .imagemap_section2 {margin-top: 20px; display: flex; gap: 20px;}
+section .section4 .imagemap .imagemap_section .imagemap_section2 .imagemap_bottom2 {position: relative;}
+section .section4 .imagemap .imagemap_section .imagemap_section2 .imagemap_bottom2-1 {}
+section .section4 .imagemap .imagemap_section .imagemap_section2 .imagemap_bottom2-1 img {}
+section .section4 .imagemap .imagemap_section .imagemap_section2 .imagemap_bottom2 .imagemap_t {position: absolute; top: 30px; left: 30px; font-size: 20px; font-weight: bold; color: #fff; line-height: 150%;}
+
+
+section .section4 .imagemap .imagemap_section .imagemap_section2 {margin-top: 20px; display: flex; gap: 20px;}
+section .section4 .imagemap .imagemap_section .imagemap_section2 .imagemap_bottom3 {position: relative;}
+section .section4 .imagemap .imagemap_section .imagemap_section2 .imagemap_bottom3-1 {}
+section .section4 .imagemap .imagemap_section .imagemap_section2 .imagemap_bottom3-1 img {}
+section .section4 .imagemap .imagemap_section .imagemap_section2 .imagemap_bottom3 .imagemap_t {position: absolute; top: 30px; left: 30px; font-size: 20px; font-weight: bold; color: #fff; line-height: 150%;}
+/* 섹션4 */
+
+
+/* 푸터 */
+footer {width: 100%; background: #525252; padding: 50px 0px;}
+footer .footer_inbox {display: flex; justify-content: center; align-items: center; margin: 0 auto;}
+footer .footer_inbox .footer_box {display: flex; justify-content: space-between; width: 1500px;}
+footer .footer_inbox .footer_box .footer_box1 {}
+footer .footer_inbox .footer_box .footer_box1 .info {}
+footer .footer_inbox .footer_box .footer_box1 .info ul {display: flex; gap: 20px;}
+footer .footer_inbox .footer_box .footer_box1 .info ul li {color: #d2d2d2; font-family: 'Pretendard'; font-size: 14px;}
+
+footer .footer_inbox .footer_box .footer_box1 .info2 {color: #a7a7a7; font-family: 'Pretendard'; font-size: 14px; margin-top: 20px; line-height: 170%;}
+footer .footer_inbox .footer_box .footer_box1 .copyright {color: #a7a7a7; font-family: 'Pretendard'; font-size: 14px; margin-top: 20px;}
+
+
+footer .footer_inbox .footer_box .footer_box2 {}
+footer .footer_inbox .footer_box .footer_box2 .footer_iconbox {width: 136px; height: 20px; display: flex; justify-content: center; align-items: center; gap: 20px;}
+footer .footer_inbox .footer_box .footer_box2 .footer_logo {margin-top: 145px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sub1 css */
+.sub1 .hero {display: flex; justify-content: center; position: relative; height: 346px; font-size: 0;}
+.sub1 .hero .hero_img {position: absolute; overflow: hidden; width: 100%; height: 100%;}
+.sub1 .hero .hero_img img {animation: imgAni 2s forwards; transform: scale(105%); width: 100%; height: 100%;}
+.sub1 .hero .text_box {width: 534px; position: absolute; transform: translate(22%, 0); animation: textAni 2s forwards; left: 200px; top: 105px; opacity: 0;}
+.sub1 .hero .text_box li:nth-child(1) {font-size: 34px; font-weight: bold; color: #F04155; animation: textAni 0.5s forwards; left: 200px; position: relative; opacity: 0;}
+.sub1 .hero .text_box li:nth-child(2) {font-size: 49px; font-weight: bold; color: #3C4B6C; letter-spacing: -1%; animation: textAni 0.6s forwards; left: 200px; position: relative; opacity: 0;}
+.sub1 .hero .text_box li:nth-child(3) {font-size: 16px; font-family: 'Pretendard'; line-height: 170%; color: #3C3C3C; margin-top: 22px; position: relative; animation: textAni 0.7s forwards; left: 200px; opacity: 0;}
+
+
+@keyframes imgAni {
+    0% {transform: scale(105%);}
+    100% {transform: scale(100%);}
+}
+
+@keyframes textAni {
+    0% {left: 200px; opacity: 0;}
+    100% {left: 0; opacity: 1;}
+}
