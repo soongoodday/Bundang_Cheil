@@ -1,17 +1,17 @@
 header {width: 100%; height: 184px; position: relative; z-index: 1;}
 header .topset {width: 1500px; margin: 0 auto; display: flex; justify-content: space-between; margin-top: 20px;}
 header .topset .lang {width: 107px; height: 28px; background: #3c4b6c; color: #fff; text-align: center; font-size: 15px; font-family: 'Pretendard'; line-height: 28px; border-top-right-radius: 10px;}
-header .topset .lang a {color: #fff;}
+header .topset .lang a {color: #fff; display: block;}
 
 header .topset .login_box {display: flex; gap: 15px;}
 header .topset .login_box .login_button {width: 66px; height: 28px; background: #f04155; color: #fff; font-family: 'Pretendard'; text-align: center; line-height: 28px; border-top-right-radius: 10px;}
-header .topset .login_box .login_button a {color: #fff;}
+header .topset .login_box .login_button a {color: #fff; display: block;}
 
 header .topset .login_box .signup_button {width: 80px; height: 28px; background: #525252; color: #fff; text-align: center; line-height: 28px; font-family: 'Pretendard'; border-top-right-radius: 10px;}
-header .topset .login_box .signup_button a {color: #fff;}
+header .topset .login_box .signup_button a {color: #fff; display: block;}
 
 header .topset .login_box .sitemap_button {width: 80px; height: 28px; background: #525252; color: #fff; text-align: center; line-height: 28px; font-family: 'Pretendard'; border-top-right-radius: 10px;}
-header .topset .login_box .sitemap_button a {color: #fff;}
+header .topset .login_box .sitemap_button a {color: #fff; display: block;}
 
 
 header h1 {width: 230px; height: 50px; margin: 0 auto;}
@@ -37,3 +37,26 @@ header nav .gnb li .lnb li a {}
 
 header nav .gnb > li:hover .lnb {visibility: visible; opacity: 1;}
 header nav .gnb > li:hover .gnb_color {visibility: visible;}
+
+
+
+
+
+
+
+/* 푸터 */
+footer {width: 100%; background: #525252; padding: 50px 0px; margin-top: 200px;}
+footer .footer_inbox {display: flex; justify-content: center; align-items: center; margin: 0 auto;}
+footer .footer_inbox .footer_box {display: flex; justify-content: space-between; width: 1500px;}
+footer .footer_inbox .footer_box .footer_box1 {}
+footer .footer_inbox .footer_box .footer_box1 .info {}
+footer .footer_inbox .footer_box .footer_box1 .info ul {display: flex; gap: 20px;}
+footer .footer_inbox .footer_box .footer_box1 .info ul li {color: #d2d2d2; font-family: 'Pretendard'; font-size: 14px;}
+
+footer .footer_inbox .footer_box .footer_box1 .info2 {color: #a7a7a7; font-family: 'Pretendard'; font-size: 14px; margin-top: 20px; line-height: 170%;}
+footer .footer_inbox .footer_box .footer_box1 .copyright {color: #a7a7a7; font-family: 'Pretendard'; font-size: 14px; margin-top: 20px;}
+
+
+footer .footer_inbox .footer_box .footer_box2 {}
+footer .footer_inbox .footer_box .footer_box2 .footer_iconbox {width: 136px; height: 20px; display: flex; justify-content: center; align-items: center; gap: 20px;}
+footer .footer_inbox .footer_box .footer_box2 .footer_logo {margin-top: 145px;}
