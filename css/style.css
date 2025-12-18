@@ -85,7 +85,7 @@ section .section1 .good .section_box .contents_box .cob .contents_title {width: 
 section .section1 .good .section_box .contents_box .cob .contents_date {font-size: 16px; font-weight: 500; font-family: 'Pretendard'; margin: 15px 0 15px 0; width: 90px;}
 
 
-section .section2 {width: 1920px; background: #f6f6f6; margin: 0 auto; margin-top: 130px; padding: 90px 0;}
+section .section2 {width: 1920px; margin: 0 auto; margin-top: 130px; padding: 90px 0;}
 section .section2 .time_notice {width: 1500px; height: 375px; margin: 0 auto;}
 section .section2 .time_notice .tnotice_text {}
 section .section2 .time_notice .tnotice_text .tnotice_title {}
@@ -289,3 +289,91 @@ footer .footer_inbox .footer_box .footer_box2 .footer_logo {margin-top: 145px;}
     0% {left: 200px; opacity: 0;}
     100% {left: 0; opacity: 1;}
 }
+
+
+.sub1 section .section1 {} 
+.sub1 section .section1 .section1_box {width: 1246px; height: 472px; margin: 0 auto;}
+.sub1 section .section1 .section1_box .box1 {width: 1246px; height: 59px; margin: 0 auto; background: #3c4b6c;}
+.sub1 section .section1 .section1_box .box1 .box1_title {display: flex; justify-content: center; align-items: center; font-size: 16px; gap: 57px; height: 100%;}
+.sub1 section .section1 .section1_box .box1 .box1_title li {transition: 0.5s;}
+.sub1 section .section1 .section1_box .box1 .box1_title li a {color: #fff;}
+
+.sub1 section .section1 .section1_box .box1 .box1_title li:hover {font-size: 20px; font-weight: bold;}
+
+.sub1 section .section1 .section1_box .box2 {text-align: center;}
+.sub1 section .section1 .section1_box .box2 h2 {font-size: 30px; font-weight: bold; color: #3c4b6c; position: relative; margin-top: 50px;}
+.sub1 section .section1 .section1_box .box2 h2 span {color: #77a1ff;}
+.sub1 section .section1 .section1_box .box2 .box2_t1::before {content: ''; position: absolute; width: 4px; height: 4px; border-radius: 50%; background: #77a1ff; left: 530px; top: 0%;}
+.sub1 section .section1 .section1_box .box2 .box2_t1::after {content: ''; position: absolute; width: 4px; height: 4px; border-radius: 50%; background: #77a1ff; left: 560px; top: 0%;}
+.sub1 section .section1 .section1_box .box2 .box2_t2::before {content: ''; position: absolute; width: 4px; height: 4px; border-radius: 50%; background: #77a1ff; left: 625px; top: 0%;}
+.sub1 section .section1 .section1_box .box2 .box2_t2::after {content: ''; position: absolute; width: 4px; height: 4px; border-radius: 50%; background: #77a1ff; left: 655px; top: 0%;}
+.sub1 section .section1 .section1_box .box2 p {margin-top: 15px; font-size: 18px; color: #3C4B6C; font-family: 'Pretendard';}
+
+
+.sub1 section .section1 .section1_box .box3 {width: 1246px; height: 210px; display: flex; justify-content: space-between; margin-top: 50px;}
+.sub1 section .section1 .section1_box .box3 img {}
+.sub1 section .section1 .section1_box .box3 .box3_section {width: 912px; height: 209px; border: 1px solid #e3e3e3; display: flex; align-items: center;}
+.sub1 section .section1 .section1_box .box3 .box3_section ul {}
+.sub1 section .section1 .section1_box .box3 .box3_section ul li {font-family: 'Pretendard'; font-size: 16px; line-height: 160%; margin-left: 57px;}
+.sub1 section .section1 .section1_box .box3 .box3_section ul li:nth-child(1)::before {content: ''; width: 7px; height: 7px; background: #3C4B6C; position: absolute; left: 500px; top: 1015px;}
+.sub1 section .section1 .section1_box .box3 .box3_section ul li:nth-child(2)::before {content: ''; width: 7px; height: 7px; background: #3C4B6C; position: absolute; left: 500px; top: 1042px;}
+.sub1 section .section1 .section1_box .box3 .box3_section ul li:nth-child(3)::before {content: ''; width: 7px; height: 7px; background: #3C4B6C; position: absolute; left: 500px; top: 1067px;}
+
+
+
+.sub1 section .section2 {margin: 0 auto;}
+.sub1 section .section2 .box1 {width: 1246px; height: 59px; margin: 0 auto; background: #3c4b6c;}
+.sub1 section .section2 .box1 .box1_title {display: flex; justify-content: center; align-items: center; font-size: 20px; font-weight: bold; height: 100%; color: #fff;}
+.sub1 section .section2 .box1 .box1_title2 {display: flex; justify-content: center; align-items: center; font-size: 20px; font-weight: bold; height: 100%; color: #3c4b6c;}
+
+
+
+
+.sub1 section .section2 .box2 {width: 1246px; height: 840px; margin: 0 auto; margin-top: 80px;}
+.sub1 section .section2 .box2 .box2_leftbox {width: 378px; height: 658px;}
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_1 {width: 360px; height: 315px; border: 1px solid #d9d9d9; position: relative; padding: 20px 25px; box-sizing: border-box;}
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_1 .leftbox_1_title {font-size: 20px; font-weight: bold; color: #3c4b6c; text-align: center;}
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_1 .leftbox_1_title::before {content: ''; width: 308px; height: 1px; background: #e0e0e0; position: absolute; left: 25px; top: 70px;}
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_1 .leftbox_1_section {margin-top: 40px;}
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_1 .leftbox_1_section .leftbox_1_section1 {display: flex;}
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_1 .leftbox_1_section .leftbox_1_section1 .s1 {font-size: 18px; font-weight: bold; color: #3c4b6c; display: flex;}
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_1 .leftbox_1_section .leftbox_1_section1 .s1 input {width: 25px; height: 25px; margin-right: 10px;}
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_1 .leftbox_1_section .leftbox_1_section1 .s2 {font-size: 18px; font-weight: bold; color: #3c4b6c; display: flex;}
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_1 .leftbox_1_section .leftbox_1_section1 .s2 input {width: 25px; height: 25px; margin-right: 10px; margin-left: 20px;}
+
+
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_1 .leftbox_1_section .leftbox_1_section2 {display: flex; margin-top: 28px;}
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_1 .leftbox_1_section .leftbox_1_section2 .s1 {font-size: 18px; font-weight: bold; color: #3c4b6c; display: flex;}
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_1 .leftbox_1_section .leftbox_1_section2 .s1 input {width: 25px; height: 25px; margin-right: 10px;}
+
+
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_1 .leftbox_1_section .leftbox_1_section3 {display: flex; margin-top: 28px;}
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_1 .leftbox_1_section .leftbox_1_section3 .s1 {font-size: 18px; font-weight: bold; color: #3c4b6c; display: flex;}
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_1 .leftbox_1_section .leftbox_1_section3 .s1 input {width: 25px; height: 25px; margin-right: 10px;}
+
+
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_1 .leftbox_1_section .leftbox_1_section4 {display: flex; margin-top: 28px;}
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_1 .leftbox_1_section .leftbox_1_section4 .s1 {font-size: 18px; font-weight: bold; color: #3c4b6c; display: flex;}
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_1 .leftbox_1_section .leftbox_1_section4 .s1 input {width: 25px; height: 25px; margin-right: 10px;}
+
+
+
+
+
+
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_2 {width: 360px; height: 190px; background: #3C4B6C; margin-top: 25px; padding: 30px 24px; box-sizing: border-box;}
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_2 .leftbox_2_title {font-size: 20px; font-weight: bold; color: #fff; text-align: center; position: relative;}
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_2 .leftbox_2_title::before {content:''; width: 310px; height: 1px; background: #fff; position: absolute; top: 170%; left: 0%;}
+
+
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_2 .leftbox_2_calendar {width: 312px; height: 55px; background: #6380bf; margin-top: 45px; display: flex; align-items: center; justify-content: space-around;}
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_2 .leftbox_2_calendar span {font-family: 'Pretendard'; color: #fff;}
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_2 .leftbox_2_calendar span img {width: 100%;}
+
+
+
+
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_detail {font-family: 'Pretendard'; color: #929292; font-size: 14px; line-height: 160%; margin-top: 20px;}
+.sub1 section .section2 .box2 .box2_leftbox .leftbox_detail span {color: #212121; font-weight: bold;}
+
+.sub1 section .section2 .box2 .box2_rightbox {}
